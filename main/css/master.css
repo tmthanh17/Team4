@@ -1,0 +1,25 @@
+.headweb{
+   width:100%;
+   position:fixed; 
+   height  : 100px;
+   background-color:black;
+   font-size: 1rem;
+   margin:0 ;
+   display:flex;
+   justify-content: flex-end;
+}
+.header__list{
+    display:flex;
+    flex-direction: row;
+}
+.header__list-item{
+    list-style-type: none;
+    color:aliceblue;
+    margin-left:20px;
+    margin-top:0 rem;
+}
+.member{
+    text-decoration:none;
+    list-style-type: none;
+    color:aliceblue;
+}
