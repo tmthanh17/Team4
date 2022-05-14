@@ -1,25 +1,22 @@
-.headweb{
+.block1{
+   display:inline-flex;
+   background:  #62bdfc;
    width:100%;
-   position:fixed; 
-   height  : 100px;
-   background-color:black;
-   font-size: 1rem;
-   margin:0 ;
-   display:flex;
-   justify-content: flex-end;
+   height:50px;
+   position:fixed;
+   flex-direction: row;
+   justify-content: space-between;
 }
-.header__list{
-    display:flex;
-    flex-direction: row;
+.block1__part1{
+    display:inline-flex;
+    color:#fff;
+    cursor:text;
 }
-.header__list-item{
-    list-style-type: none;
-    color:aliceblue;
-    margin-left:20px;
-    margin-top:0 rem;
+.image{
+    height:50px;
+    width: 50px;
+    margin-right:10px;
 }
-.member{
-    text-decoration:none;
-    list-style-type: none;
-    color:aliceblue;
+.block1__part2{
+    list-style:none;
 }
