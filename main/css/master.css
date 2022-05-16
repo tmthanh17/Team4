@@ -23,3 +23,119 @@
     list-style-type: none;
     color:aliceblue;
 }
+
+/* footer */
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.col{
+    width: 100%;
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.col-30{
+    flex: 0 0 30%;
+}
+
+.col-40{
+    flex: 0 0 40%;
+}
+
+
+#footer{
+    display: flex;
+    font-size: 10px;
+    display: block;
+    padding-top: 120px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #000;
+    color: #777777;
+    padding-bottom: 100px;
+}
+
+.container{
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: auto;
+}
+
+.footer-address-top{
+    display: flex;
+    justify-items: center;
+}
+
+.footer-address-top img{
+    margin-right: 8px;
+    width:38px;
+    height: 38px;
+}
+
+.footer-heading{
+    font-size: 1.6em;
+    color: #fff;
+   
+    font-weight: 600;
+}
+
+.footer-address-list{
+    list-style: none;
+    font-size: 1.4em;
+    padding: 0;
+    
+}
+.footer-address-list li{
+    margin-bottom: 8px;
+}
+
+.footer-contact{
+
+}
+
+.text-input{
+    font-size: 1.4em;
+    margin-bottom: 6px;
+}
+
+.text-input label{
+    padding-bottom: 6px;
+    display: block;
+}
+
+.input-type input{
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    height: 36px;
+    width: 90%;
+}
+
+.input-type .input-desc{
+    height: 72px;
+}
+
+.button{
+    font-size: 1.5em;
+    justify-items: center;
+    
+    
+}
+.button button{
+    border: 5px;
+    width: 70px;
+    height: 28px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #f05123;
+}
+
+.footer-organization p{
+    font-size: 1.4em;
+}
