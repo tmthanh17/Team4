@@ -1,13 +1,18 @@
+.team4{
+    display:flex;
+    flex-direction: column;
+}
 /* Phần Header */
-.block1{
+.header{
    display:inline-flex;
-   background:  black  ;
+   background:  rgb(44, 42, 42)  ;
    width:100%;
    height:70px;
    position:fixed;
    flex-direction: row;
    justify-content: space-between;
-   position:sticky;
+   margin-bottom:100px;
+   flex:1
 }
 .block1__part1{
     display:flex;
@@ -17,7 +22,7 @@
   
 }
 .title{
-    font-weight:900;
+    font-weight:700;
     margin-top:30px;
 }
 .image{
@@ -86,43 +91,70 @@
 .block1__part2--item1:hover .block1__notify--list{
     display:block;
 }
+.name{
+    text-decoration:none ;
+    color:#fff;
+}
+.name:hover{
+    color:aqua;
+}
 
+<<<<<<< HEAD
 /* Phần Block2 */
+=======
+>>>>>>> linh
 
 .Info{
     display:flex;
     flex-direction:row;
-    background-image: url(https://tse2.mm.bing.net/th?id=OIP.JZCmdQ8R47zWpbUi-knZUAAAAA&pid=Api&P=0&w=251&h=177);
-    background-repeat: none;
+    /* background-image: url(https://tse2.mm.bing.net/th?id=OIP.JZCmdQ8R47zWpbUi-knZUAAAAA&pid=Api&P=0&w=251&h=177);
+    background-repeat: none; */
     height:500px;
+    
 }
+
+
+
+/* Block2 */
 .Info__context{
     flex:1;
     display:flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content:space-around;
+   
 }
 .Info__title{
     color:#0c0c0c;
     font-size:50px;
     margin-top:200px;
     flex:1;
+    text-align:left;
+    margin-left:30px;
 }
 .Info__paragraph{
-    margin-top:170px;
+    margin-bottom:250px;
     flex:1;
-    font-weight:400 ;
-    color:#fff;
+    font-weight:600 ;
+    color:rgb(17, 16, 16);
+    text-align:left;
+    max-width:400px;
+    margin-left:30px;
 }
 .Info__image{
-    flex:1;
-    height:500px;
+    margin-top:60px;
+    /* margin-bottom: 50px; */ 
+    height:450px;
     cursor :text;
+<<<<<<< HEAD
+=======
+    flex:1;
+>>>>>>> linh
 }
 
 
 
 
+<<<<<<< HEAD
 /* phần Block3 */
 
  .row{
@@ -240,3 +272,123 @@
      font-size: 1.4em;
  }
  
+=======
+
+
+
+/* Footer */
+.row{
+    display: flex;
+    /* flex-wrap: wrap; */
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.col{
+    width: 100%;
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+    flex:1;
+}
+
+.col-30{
+    flex: 0 0 30%;
+}
+
+.col-40{
+    flex: 0 0 30%;
+}
+
+
+#footer{
+    display: flex;
+    font-size: 10px;
+    display: block;
+    padding-top: 120px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #000;
+    color: #777777;
+    padding-bottom: 100px;
+}
+
+.container{
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: auto;
+}
+
+.footer-address-top{
+    display: flex;
+    justify-items: center;
+}
+
+.footer-address-top img{
+    margin-right: 8px;
+    width:38px;
+    height: 38px;
+}
+
+.footer-heading{
+    font-size: 1.6em;
+    color: #fff;
+   
+    font-weight: 600;
+}
+
+.footer-address-list{
+    list-style: none;
+    font-size: 1.4em;
+    padding: 0;
+    
+}
+.footer-address-list li{
+    margin-bottom: 8px;
+}
+
+/* .footer-contact{ */
+
+
+.text-input{
+    font-size: 1.4em;
+    margin-bottom: 6px;
+}
+
+.text-input label{
+    padding-bottom: 6px;
+    display: block;
+}
+
+.input-type input{
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    height: 36px;
+    width: 90%;
+}
+
+.input-type .input-desc{
+    height: 72px;
+}
+
+.button{
+    font-size: 1.5em;
+    justify-items: center;
+    
+    
+}
+.button button{
+    border: 5px;
+    width: 70px;
+    height: 28px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #f05123;
+}
+
+.footer-organization p{
+    font-size: 1.4em;
+}
+>>>>>>> linh
