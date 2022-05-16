@@ -1,25 +1,121 @@
-.headweb{
+/* Phần Header */
+.block1{
+   display:inline-flex;
+   background:  black  ;
    width:100%;
-   position:fixed; 
-   height  : 100px;
-   background-color:black;
-   font-size: 1rem;
-   margin:0 ;
-   display:flex;
-   justify-content: flex-end;
+   height:70px;
+   position:fixed;
+   flex-direction: row;
+   justify-content: space-between;
+   position:sticky;
 }
-.header__list{
+.block1__part1{
+    display:flex;
+    color:#fff;
+    cursor:text;
+    flex-direction:row;
+  
+}
+.title{
+    font-weight:900;
+    margin-top:30px;
+}
+.image{
+    height:70px;
+    width: 70px;
+    margin-right:10px;
+}
+.block1__part2{
+    list-style:none;
+    display:flex;
+    flex-direction: row;
+    cursor:pointer;
+    color:#fff;
+    font-weight:600;
+}
+.icon{
+    font-weight:500;
+    margin:  20px 2px 15px 2px ;
+}
+.block1__part2--item{
+     margin: 0px 20px 60px 0px; 
+    display:inline-flex;
+    flex-direction: row;
+}
+.block1__part2--item:hover{
+    color:aqua;
+}
+.notify{
     display:flex;
     flex-direction: row;
 }
-.header__list-item{
-    list-style-type: none;
-    color:aliceblue;
-    margin-left:20px;
-    margin-top:0 rem;
+.block1__part2--item1{
+    display:flex;
+    flex-direction: column;
 }
-.member{
-    text-decoration:none;
-    list-style-type: none;
-    color:aliceblue;
+.block1__notify--list{
+    list-style:none;
+    background-color: #808a8d;
+    position:absolute;
+    right:160px;
+    top:100%;
+    width :130px;
+    transform-origin: top;
+    animation: block1__notify--listGrowth ease-in 0.2s;
+    display:none;
+}
+.block1__notify--item{
+    text-align:center;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color:#fff
+}
+.block1__notify--item:hover{
+     color: #000;;
+}
+@keyframes block1__notify--listGrowth{
+      from{
+          opacity:0;
+          transform: scale(0);
+      }
+      to{
+        opacity:1;
+        transform:  scale(1);
+      }
+}
+.block1__part2--item1:hover .block1__notify--list{
+    display:block;
+}
+
+/* Phần container */
+
+.Info{
+    display:flex;
+    flex-direction:row;
+    background-image: url(https://tse2.mm.bing.net/th?id=OIP.JZCmdQ8R47zWpbUi-knZUAAAAA&pid=Api&P=0&w=251&h=177);
+    background-repeat: none;
+    height:500px;
+}
+.Info__context{
+    flex:1;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Info__title{
+    color:#0c0c0c;
+    font-size:50px;
+    margin-top:200px;
+    flex:1;
+}
+.Info__paragraph{
+    margin-top:170px;
+    flex:1;
+    font-weight:400 ;
+    color:#fff;
+}
+.Info__image{
+    flex:1;
+    height:500px;
+    cursor :text;
 }
