@@ -35,7 +35,7 @@
     flex:2;
 }
 .header__info--table{
-    height:250px;
+    height:200px;
     font-size:20px;
     margin-left:100px;
     border-bottom: 3px solid #0af65c;
@@ -69,4 +69,34 @@
 }
 .skill__block-content{
     margin-left:10px;
+}
+
+
+/* document */
+/* .documnent{
+
+} */
+.certificate{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.certificate__image{
+    max-width:300px;
+    max-height:300px;
+}
+.contact__content--table{
+    height:150px;
+    font-size:20px;
+    width:400px;
+    margin-left:100px;
+    border-bottom: 3px solid #232825;
+}
+.contact__icon{
+    display: flex;
+    flex-direction: row;
+    margin-left:100px;
+}
+.contact__icon--item{
+    margin-right:20px;
 }
