@@ -8,7 +8,7 @@
     color: #fff;
 }
 .personal{
-    background-color: #777777;
+    background-color: #191616;
     margin:0px 200px 0px 200px;
 }
    
@@ -17,8 +17,8 @@
     display:flex;
     flex-direction:row;
     margin: 20 px;
-    /* justify-content: center; */
-    /* background-color: #777777; */
+    /* border-bottom: 3px solid #0af65c; */
+    
 }
 
 .header__image{
@@ -26,9 +26,16 @@
     max-height:300px;
     flex:1;
     margin:0px 30px 30px  30px;
+    border-radius: 150px;
 }
 .title{
     margin-left:100px;
+    border-bottom: 3px solid #0af65c;
+    max-width:350px;
+}
+.para{
+    margin-left:100px;
+    max-width:350px;
 }
 .header__info{
     margin-right:20 px;
@@ -38,14 +45,7 @@
     height:200px;
     font-size:20px;
     margin-left:100px;
-    border-bottom: 3px solid #0af65c;
-
 }
-/* .header__info--item{
-    padding: 9px 0;
-    border-bottom: 3px solid #0af65c;
-    text-align: center;
-} */
 
 /* Phần Skill */
 
